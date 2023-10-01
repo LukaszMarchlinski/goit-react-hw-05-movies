@@ -7,18 +7,17 @@
   font-weight: 500;
 
   &:not(:last-child) {
-    margin-bottom: 5px;
+    margin-bottom: 8px;
   }
 }
 
 .link {
-  color: #888;
+  color: #696969;
 
   &:hover,
   :focus {
-    color: #5d84b8;
-    font-style: italic;
-    font-weight: 600;
+    color: #FFA500;
+    font-weight: 800;
     transition: color 200ms linear;
   }
 }

@@ -5,6 +5,7 @@
 .item {
   display: block;
   font-weight: 600;
+  font-size: 20px;
 
   &:not(:last-child) {
     margin-bottom: 14px;
@@ -16,9 +17,8 @@
 
   &:hover,
   :focus {
-    color: #5d84b8;
-    font-style: italic;
-    font-weight: 700;
+    color: #FF4500;
+    font-weight: 800;
     transition: color 200ms linear;
   }
 }
